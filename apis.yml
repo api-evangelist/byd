@@ -1,8 +1,26 @@
 aid: byd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/byd.png
 name: BYD
-description: 'BYD is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: technology. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'BYD Company Ltd. is a Chinese multinational manufacturing conglomerate headquartered
+  in Shenzhen, founded in 1995 by Wang Chuanfu and publicly listed in Hong Kong (1211) and
+  Shenzhen (002594). Originally a rechargeable-battery maker, BYD has grown into one of the
+  world''s largest producers of new-energy vehicles (battery-electric and plug-in hybrid
+  cars, buses, and trucks), power batteries (including the Blade Battery), consumer and
+  automotive electronics, rail transit systems (SkyRail/SkyShuttle), forklifts, and solar
+  and energy-storage products. It was surfaced as a portfolio company of hongshan and added
+  to the API Evangelist network for enrichment; BYD is a hardware and manufacturing company
+  and does not publish a public developer or API program.'
 url: https://raw.githubusercontent.com/api-evangelist/byd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Technology
+- Electric Vehicles
+- Automotive
+- Batteries
+- Energy Storage
+- Electronics
+- Manufacturing
+- Rail Transit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://byd.com
+  url: https://www.byd.com
+- type: PrivacyPolicy
+  url: https://www.byd.com/us/legal/privacy
+- type: DomainSecurity
+  url: security/byd-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
