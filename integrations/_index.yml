@@ -14,3 +14,16 @@
   relationship: system-coverage
   status: not-a-workflow
   arazzo: null
+- slug: byd-zoom-own
+  label: Zoom (own)
+  partner: zoom
+  partner_name: Zoom (own)
+  category: Zoom app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.zoom.us/apps/RWaZLazhQrmoLnmsWi6auQ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
