@@ -27,3 +27,28 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: byd-charin-e-v-charging-interface-initiative
+  label: CharIN e.V. (Charging Interface Initiative)
+  partner_name: CharIN e.V. (Charging Interface Initiative)
+  category: charging-interface standards association membership
+  type: register
+  channel: standard-directory
+  evidence: https://www.charin.global/community/byd-motors-inc
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: CharIN e.V. members (charin.global/community, membership:core + membership:regular)
+    standard: CCS / MCS / ISO 15118 (Plug & Charge)
+    spec_file: null
+    role: charin-member
+    registered_name: BYD Motors. Inc.
+    register_id: https://www.charin.global/community/byd-motors-inc
+    partner_tier: core
+    member_since: null
+    matched_domain: byd.com
+    matched_by: domain
+    signal_note: 'participation only: association membership; tier is context, never counted'
+    detected_by: sweep-ev-charging.py
+    detected: '2026-10-20'
+  status: not-a-workflow
+  arazzo: null
